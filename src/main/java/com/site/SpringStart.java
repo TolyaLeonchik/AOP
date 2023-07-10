@@ -14,8 +14,8 @@ public class SpringStart {
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringStart.class);
 
         AspectTestingClass aspectTestingClass = context.getBean("aspectTestingClass", AspectTestingClass.class);
-        aspectTestingClass.printTesting();
         aspectTestingClass.calculating();
+        aspectTestingClass.printTesting();
         aspectTestingClass.dataToday();
     }
 }

@@ -11,8 +11,10 @@ public class AspectTestingClass {
         System.out.println("Testing...");
     }
 
-    public int calculating() {
-        return 20;
+    public Integer calculating() {
+        int x = 10;
+        int y = 20;
+        return (x * y / (y - x));
     }
 
     public String dataToday() {
